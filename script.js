@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (C) 2026 ddavef/KinteLiX retouched-project
+
 document.addEventListener("DOMContentLoaded", () => {
     const observerOptions = {
         root: null,
