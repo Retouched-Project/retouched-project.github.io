@@ -1,0 +1,163 @@
+<!-- SPDX-License-Identifier: MIT -->
+<!-- Copyright (C) 2026 ddavef/KinteLiX retouched-project -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Retouched: The open-source reimplementation of Nitrome Touchy and Brass Monkey">
+    <title>Retouched</title>
+    <link rel="icon" type="image/svg+xml" href="assets/retouched_logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-purple"></div>
+        <div class="globe globe-pink"></div>
+        <div class="globe globe-orange"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="assets/retouched_logo_text.svg" alt="Retouched Logo" class="logo-img-text">
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav class="nav-links">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="https://github.com/Retouched-Project" target="_blank" class="btn btn-outline btn-icon">
+                <img src="assets/github_logo.svg" alt="GitHub Logo" class="btn-img-icon">
+                GitHub
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero slide-up">
+            <div class="hero-content">
+                <h1 class="hero-title">Nitrome Touchy:<br><span class="gradient-text">Retouched</span></h1>
+                <p class="hero-subtitle">The open-source project dedicated to reviving Nitrome Touchy and Brass
+                    Monkey. Play classic local multiplayer games with your smartphone as the controller once more!
+                    <br><b>Retouched is not an officially supported Nitrome Ltd. or
+                        Infrared5 Inc. product.</b>
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/Retouched-Project/retouched-server/releases" class="btn btn-primary"
+                        target="_blank">Download Latest</a>
+                    <a href="#features" class="btn btn-secondary">Explore Features</a>
+                </div>
+            </div>
+            <div class="hero-visual float-anim">
+                <img src="assets/retouched_logo.svg" alt="Retouched Logo" class="hero-logo-large">
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <h2 class="section-title fade-in">Retouched Repositories</h2>
+            <div class="features-grid">
+                <div class="feature-card glass-card fade-in">
+                    <img src="assets/retouched_logo_text_flutter.svg" alt="Retouched Flutter" class="feature-img-icon">
+                    <h3 class="feature-title">Retouched Flutter</h3>
+                    <p class="feature-desc">A Brass Monkey compatible Flutter controller app.</p>
+                    <div class="card-actions">
+                        <a href="https://github.com/Retouched-Project/retouched_flutter" class="btn btn-sm btn-outline btn-icon" target="_blank">
+                            <img src="assets/github_logo.svg" alt="GitHub Logo" class="btn-img-icon">
+                            GitHub Repo
+                        </a>
+                        <a href="https://github.com/Retouched-Project/retouched_flutter/releases" class="btn btn-sm btn-primary btn-icon" target="_blank">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                            </svg>
+                            Latest Release
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card glass-card fade-in" style="transition-delay: 100ms;">
+                    <img src="assets/retouched_logo_text_web.svg" alt="Retouched Web" class="feature-img-icon">
+                    <h3 class="feature-title">Retouched Web</h3>
+                    <p class="feature-desc">A Brass Monkey compatible React + Vite controller app.</p>
+                    <div class="card-actions">
+                        <a href="https://github.com/Retouched-Project/retouched_web" class="btn btn-sm btn-outline btn-icon" target="_blank">
+                            <img src="assets/github_logo.svg" alt="GitHub Logo" class="btn-img-icon">
+                            GitHub Repo
+                        </a>
+                        <a href="https://github.com/Retouched-Project/retouched_web/releases" class="btn btn-sm btn-primary btn-icon" target="_blank">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                            </svg>
+                            Latest Release
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card glass-card fade-in" style="transition-delay: 200ms;">
+                    <img src="assets/retouched_logo_text_server.svg" alt="Retouched Server" class="feature-img-icon">
+                    <h3 class="feature-title">Retouched Server</h3>
+                    <p class="feature-desc">A reimplementation of the Brass Monkey server. Fully compatible with the
+                        original apps.</p>
+                    <div class="card-actions">
+                        <a href="https://github.com/Retouched-Project/retouched-server" class="btn btn-sm btn-outline btn-icon" target="_blank">
+                            <img src="assets/github_logo.svg" alt="GitHub Logo" class="btn-img-icon">
+                            GitHub Repo
+                        </a>
+                        <a href="https://github.com/Retouched-Project/retouched-server/releases" class="btn btn-sm btn-primary btn-icon" target="_blank">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                            </svg>
+                            Latest Release
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card glass-card fade-in" style="transition-delay: 300ms;">
+                    <img src="assets/bronze_monkey_logo.svg" alt="Bronze Monkey" class="feature-img-icon">
+                    <h3 class="feature-title">Bronze Monkey</h3>
+                    <p class="feature-desc">A Rust library that implements the Brass Monkey protocol for the server and
+                        controllers. Fully compatible with the original apps.</p>
+                    <div class="card-actions">
+                        <a href="https://github.com/Retouched-Project/bronze-monkey" class="btn btn-sm btn-outline btn-icon" target="_blank">
+                            <img src="assets/github_logo.svg" alt="GitHub Logo" class="btn-img-icon">
+                            GitHub Repo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section glass-card wrap-section fade-in">
+            <div class="about-content">
+                <h2 class="section-title">Free and Open Source</h2>
+                <p class="about-text">Retouched is a community project, aiming to preserve the awesomeness of Nitrome
+                    Touchy.</p>
+                <a href="https://github.com/Retouched-Project" target="_blank"
+                    class="btn btn-primary btn-large btn-icon">
+                    <img src="assets/github_logo.svg" alt="GitHub Logo" class="btn-img-icon">
+                    GitHub
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 ddavef/KinteLiX Retouched</p>
+            <p class="footer-links">
+                <a href="https://github.com/Retouched-Project">Organization</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
