@@ -7,6 +7,7 @@ Brass Monkey was developed by Infrared5 Inc. in circa 2011 and was discontinued 
 made by Nitrome Ltd. in partnership with Infrared5 Inc. It was released in 2012 and was discontinued when Brass Monkey was.  
 
 Retouched is an open-source project dedicated to reviving this functionality, it provides several implementations:
+
 - **Bronze Monkey**: A transport-agnostic Rust library that re-implements the Brass Monkey SDK.
 - **Retouched Server**: A Rust-based re-implementation of the Brass Monkey Server.
 - **Retouched Flutter**: A Flutter-based re-implementation of the controller app.
@@ -15,6 +16,7 @@ Retouched is an open-source project dedicated to reviving this functionality, it
 This documentation is for anyone who wants to understand the protocol, contribute to Retouched, or create their own implementations.
 
 The documentation is structured as follows:
+
 - Protocol Specification: A detailed breakdown of the protocol.
 - Connection Flows: A description of the connection lifecycle.
 - Reference Tables: Useful tables for quick reference.
