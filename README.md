@@ -9,11 +9,11 @@
 The Retouched Project's GitHub pages website.
 
 ## License
-This project is licensed under the MIT License.  
+Source code (HTML, CSS, JavaScript, YAML) in this project is licensed under the MIT License.  
 See the [LICENSE](LICENSE) file for details.    
 
-Images in this repository are licensed under the Creative Commons Attribution 4.0 International License.  
-See the [LICENSE-IMAGES.md](LICENSE-IMAGES.md) file for details.
+The images and documentation in this repository are licensed under the Creative Commons Attribution 4.0 International License.  
+See the [LICENSE-CONTENT.md](LICENSE-CONTENT.md) file for details.
 
 ## Credits
 The project logo uses the font ["Cosimo"](https://fontstruct.com/fontstructions/show/406218/cosimo_1) by Patrick H. Lauke (redux),  
