@@ -22,7 +22,85 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
+
+  - Protocol Specification:
+    - Overview: protocol/index.md
+    - Architecture: protocol/architecture.md
+    - Transport Layer:
+      - TCP Framing: protocol/transport/tcp-framing.md
+      - UDP Framing: protocol/transport/udp-framing.md
+      - HTTP Discovery: protocol/transport/http-discovery.md
+      - Flash Socket Policy: protocol/transport/flash-policy.md
+    - Connection Setup:
+      - Handshake: protocol/connection/handshake.md
+      - Version Compatibility: protocol/connection/version-compat.md
+    - Serialization:
+      - Object Encoding: protocol/serialization/object-encoding.md
+      - Class ID Registry: protocol/serialization/class-ids.md
+      - Primitive Types: protocol/serialization/primitives.md
+    - Packet Structure:
+      - BMPacket: protocol/packets/bm-packet.md
+      - Packet Types: protocol/packets/packet-types.md
+      - Channels: protocol/packets/channels.md
+      - Reliability: protocol/packets/reliability.md
+      - Chunked Transfer: protocol/packets/chunked-transfer.md
+    - Objects:
+      - BMInvoke: protocol/objects/bm-invoke.md
+      - BMParameter: protocol/objects/bm-parameter.md
+      - BMArray: protocol/objects/bm-array.md
+      - BMRegistryInfo: protocol/objects/bm-registry-info.md
+      - BMByteChunk: protocol/objects/bm-byte-chunk.md
+      - StringLiteral: protocol/objects/string-literal.md
+    - Input Messages:
+      - Overview: protocol/messages/index.md
+      - Ping / Ack / KeepAlive: protocol/messages/ping-ack.md
+      - D-Pad Update: protocol/messages/dpad-update.md
+      - Touch / TouchSet: protocol/messages/touch.md
+      - Acceleration: protocol/messages/acceleration.md
+      - Gyroscope: protocol/messages/gyroscope.md
+      - Orientation: protocol/messages/orientation.md
+    - Registry RPC:
+      - Overview: protocol/registry/index.md
+      - registry.register: protocol/registry/register.md
+      - Slot Allocation: protocol/registry/slots.md
+      - registry.list / onList: protocol/registry/list.md
+      - registry.relay: protocol/registry/relay.md
+      - registry.update / onHostUpdate: protocol/registry/update.md
+      - onHostConnected: protocol/registry/host-connected.md
+      - onHostDisconnected: protocol/registry/host-disconnected.md
+      - GetPortalId: protocol/registry/portal-id.md
+    - Game Session RPC:
+      - Overview: protocol/session/index.md
+      - RequestXML & Delivery: protocol/session/request-xml.md
+      - SetControlMode: protocol/session/set-control-mode.md
+      - Capabilities: protocol/session/capabilities.md
+      - Sensor Configuration: protocol/session/sensor-config.md
+      - setReliabilityForTouch: protocol/session/reliability-config.md
+      - Cookies (getCookie / setCookie): protocol/session/cookies.md
+      - vibrate: protocol/session/vibrate.md
+      - Navigation & Keyboard: protocol/session/navigation-keyboard.md
+      - Trial & Purchase: protocol/session/trial-purchase.md
+    - Control Scheme Format:
+      - XML Schema: protocol/controls/xml-schema.md
+      - Display Objects: protocol/controls/display-objects.md
+      - Resources & Assets: protocol/controls/resources.md
+      - Context Menu: protocol/controls/context-menu.md
+
+  - Connection Flows:
+    - Full Connection Lifecycle: flows/lifecycle.md
+    - Game Registration: flows/game-registration.md
+    - Controller Discovery & Connect: flows/controller-connect.md
+    - Control Scheme Exchange: flows/control-scheme-exchange.md
+    - Gameplay (Input Loop): flows/gameplay-loop.md
+    - Disconnection & Reconnection: flows/disconnection.md
+
+  - Reference Tables:
+    - Device Types: reference/device-types.md
+    - Channel Types: reference/channel-types.md
+    - Packet Types: reference/packet-types.md
+    - Reliability Modes: reference/reliability-modes.md
+    - Control Modes: reference/control-modes.md
+    - Class ID Table: reference/class-ids.md
 
 markdown_extensions:
   - admonition
