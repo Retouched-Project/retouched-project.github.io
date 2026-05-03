@@ -42,7 +42,6 @@ nav:
       - BMPacket: protocol/packets/bm-packet.md
       - Packet Types: protocol/packets/packet-types.md
       - Channels: protocol/packets/channels.md
-      - Reliability: protocol/packets/reliability.md
       - Chunked Transfer: protocol/packets/chunked-transfer.md
     - Objects:
       - BMInvoke: protocol/objects/bm-invoke.md

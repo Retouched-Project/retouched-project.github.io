@@ -4,12 +4,12 @@ The packet type field in `BMPacket` indicates the purpose of the packet.
 
 | Code | Name | Description |
 |------|------|-------------|
-| 0 | Data | Application data payload (the default for all game traffic) |
-| 1 | Ping | Latency probe sent by one peer, expects an Echo in response |
-| 2 | Ack | Acknowledgment of a received connection request |
-| 3 | Echo | Response to a Ping packet |
-| 4 | Analysis | Performance/diagnostic metrics |
-| 5 | KeepAlive | Connection liveness signal, no response expected |
+| 0 | Data | Application data payload (the default for all game traffic). |
+| 1 | Ping | Latency probe sent by one peer, expects an Echo in response. |
+| 2 | Ack | Acknowledgment of a received connection request. |
+| 3 | Echo | Response to a Ping packet, returned with the original timestamp. |
+| 4 | Analysis | Presumably performance/diagnostic metrics. Not observed in normal operation. |
+| 5 | KeepAlive | Heartbeat to maintain the connection. |
 
 ## Notes
 
